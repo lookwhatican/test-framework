@@ -22,10 +22,10 @@ function render($layoutName, $data = [])
 /**
  * use
  */
-render('layout.php', array('menu' => Menu::find('all'),
-    'categories' => Category::find('all'),
-    'posts' => Post::find('all')
-));
+render('layout.php', array(
+                    'menu' => Menu::find('all'),
+                    'categories' => Category::find('all'),
+                    'posts' => Post::find('all')));
 
 
 

@@ -69,7 +69,7 @@ $activeIfRoute = function ($item) use (&$route) {
 
 		<!-- content -->
 		<div class="col-lg-9">
-			<?php echo $posts; ?>
+			<?php echo $content; ?>
 		</div>
 	</div>
 
